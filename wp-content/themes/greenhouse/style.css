@@ -40,6 +40,7 @@ img {
 section img {
     max-width: 100%;
 }
+
 h1,
 h2,
 h3,
@@ -51,6 +52,7 @@ h6 {
 	font-family: 'Montserrat';
 	line-height:normal;
 	color:#282828;
+	text-transform:uppercase;
 }
 p {
     margin: 0;
@@ -89,6 +91,7 @@ pre {
 .middle-align {
     margin: 0 auto;
     padding: 0;
+
 }
 .wp-caption {
     margin: 0;
@@ -209,10 +212,10 @@ h2.section-title {
     line-height: 55px;
 }
 #slider .top-bar h2 a {
-    color: #483b33;
+    color: #008b69;
 }
 #slider .top-bar h2 a:hover {
-    color: #483b33;
+    color: #008b69;
 }
 #slider .top-bar p {
     color: #483b33;
@@ -228,12 +231,14 @@ h2.section-title {
 .main-container {
     margin: 0;
     padding: 50px 0;
+	
 }
 .container {
     width: 1160px;
     margin: 0 auto;
     padding: 0;
     position: relative;
+	
 }
 /** Header **/
 #header { 
@@ -266,6 +271,13 @@ h2.section-title {
 #header .main-nav ul li a { 
 	font:700 13px 'Montserrat'; 
 }
+#header .main-nav ul li a:hover { 
+	font:700 13px 'Montserrat'; 
+	color:#008b69;
+}
+.main-nav ul li.current_page_item a{
+		color:#008b69;
+	}
 
 @media screen and (min-width:1000px){
 	.main-nav ul { 
@@ -292,7 +304,7 @@ h2.section-title {
 	}
 	.main-nav ul li a:hover { 
 		text-decoration:none;
-		color:#69af07;
+		
 	}
 	.main-nav ul li:hover ul {
 		display:block; 
@@ -311,6 +323,7 @@ h2.section-title {
 		padding:0 0 0 14px;  
 		border-top:0; 
 		text-transform:capitalize; 
+		
 	}
 	.main-nav ul li:hover ul li ul { 
 		display:none; 
@@ -335,7 +348,7 @@ h2.section-title {
 		padding-bottom: 10px;
 	}
 	.main-nav ul li.current_page_item a{
-		color:#69af07;
+		color:#008b69;
 	}
 	
 	#header .logo{float:left; }
@@ -359,12 +372,16 @@ section#pagearea {
     width: 1160px;
     margin: 0 auto;
     padding:0;
+
+
 }
 .site-main {
     width: 800px;
     margin: 0;
     padding: 0;
     float: left;
+		margin-left:16%;
+	
 }
 #sitefull {
     width: auto !important;
